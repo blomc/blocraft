@@ -1,0 +1,410 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+}
+ 
+/* Main */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+#rotaten{
+  webkit-transform:rotate(-3deg);
+  moz-transform:rotate(-3deg);
+  -o-transform:rotate(-3deg);
+  -ms-transform:rotate(-3deg);
+  transform:rotate(-3deg);
+}
+#rotatep{
+  webkit-transform:rotate(3deg);
+  moz-transform:rotate(3deg);
+  -o-transform:rotate(3deg);
+  -ms-transform:rotate(3deg);
+  transform:rotate(3deg);
+}
+
+/* Header */
+header{
+  background:#ffffff;
+  color:#191970;
+  padding-top:20px;
+  min-height:60px;
+  border-bottom:#00FFFF 10px solid;
+}
+
+header a{
+  color: #191970;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+  font-weight: 600;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding img{
+  margin: 0;
+}
+
+header #branding{
+  float:left;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .current a{
+  color:#1E90FF;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#191970;
+  font-weight:bold;
+}
+
+/* Cover */
+#cover{
+  min-height:200px;
+  background:url('/img/mapcover/coverblue.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:#191970;
+}
+
+#cover p{
+  font-size:40px;
+  font-weight: 600;
+}
+.padding{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.titlecard{
+  background-color: #ffffff;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.386);
+  margin: auto;
+  text-align: center;
+  width: fit-content;
+  border-radius: 4px;
+  padding: 0px 15px 0px;
+}
+
+
+/* Map cover */
+#mapcover{
+  background: #DAECFF;
+  color: #191970;
+}
+#mapcover .map{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#mapcover img{
+  aspect-ratio: 16/9;
+  width: 70%;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+#mapcover iframe{
+  aspect-ratio: 16/9;
+  width: 60%;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+#mapcover h2{
+  font-size: 700;
+  text-align: center;
+}
+
+.border{
+  border: 3px solid #191970;
+}
+
+/* Map Description */
+#mapdesc{
+  background: #BFDEFF;
+  color: #191970;
+}
+.desc{
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+}
+.desc h1{
+  font-size: 35px;
+}
+.desctext{
+  padding-right: 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* TABLE / Speedrun Guide */
+#table{
+  background: #DAECFF;
+}
+table{
+  width: 70%;
+  font-size: 17px;
+  border-collapse: collapse;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.386);
+  margin: auto;
+  color: #ffffff;
+}
+@media (max-width: 600px) {
+  table{
+    width: 90%;
+  }
+}
+table, th, td {
+  text-align: center;
+}
+th, td {
+  padding: 20px;
+}
+/* Head table color */
+th{
+  background: #204eaa;
+}
+/* selects odd rows */
+tr:nth-child(odd) {
+  background: #d7f8ff;
+}
+/* selects even rows */
+tr:nth-child(even) {
+  background: #EBF8FF;
+}
+
+
+/* Map Image Section */
+#mapimg{
+  background: #BFDEFF;
+  color: #191970;
+}
+.pic h1{
+  font-size: 35px;
+  text-align: center;
+}
+
+/* Map Images */
+#content1{
+  padding:5px;
+}
+#content1 .picc11{
+  float: left;
+  text-align: center;
+  width:48%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#content1 .picc11 img{
+  aspect-ratio: 16/9;
+  width: 98%;
+  height: 98%;
+}
+#content1 .picc12{
+  float: right;
+  text-align: center;
+  width:48%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#content1 .picc12 img{
+  aspect-ratio: 16/9;
+  width: 98%;
+  height: 98%;
+}
+#content2{
+  padding:5px;
+}
+
+#content2 .picc21{
+  float: left;
+  text-align: center;
+  width:48%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#content2 .picc21 img{
+  aspect-ratio: 16/9;
+  width: 98%;
+  height: 98%;
+}
+#content2 .picc22{
+  float: right;
+  text-align: center;
+  width:48%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#content2 .picc22 img{
+  aspect-ratio: 16/9;
+  width: 98%;
+  height: 98%;
+}
+
+/* Download */
+#download{
+  background: #BFDEFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#download .download{
+  background-color: #191970;
+  display: block;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.386);
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  padding: 5px 10px 5px;
+  border-radius: 3px;
+}
+#download h1{
+  font-size: 35px;
+  text-align: center;
+  color: #191970;
+}
+#download p{
+  font-size: 17px;
+  text-align: center;
+  color: #191970;
+}
+
+/* MENU */
+#menus{
+  margin-top:20px;
+}
+#menus .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+  padding-bottom: 50px;
+}
+#menus .smallcard{
+  background-color: #ffffff;
+  display: block;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.386);
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+  padding: 0px 10px 0px;
+  border-radius: 3px;
+}
+#menus .smallcardtext{
+  text-decoration: none;
+}
+
+/* Footer */
+#main-footer{
+  background: #00015e;
+  overflow: hidden;
+  color: #ffffff;
+  text-align: center;
+  clear: both;
+  padding-top: 40px;
+}
+#main-footer h1{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+#main-footer p{
+  font-size: 20px;
+  font-weight: 500;
+}
+#main-footer img{
+  height: 30px;
+  width: 38px;
+}
+#main-footer .img2{
+  height: 30px;
+  width: 30px;
+}
+
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #menus .box,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+  
+  header{
+    padding-bottom:20px;
+  }
+  #mapcover img{
+    aspect-ratio: 16/9;
+    width: 98%;
+    height: 100%;
+  }
+  #mapcover iframe{
+    aspect-ratio: 16/9;
+    width: 98%;
+    height: 100%;
+  }
+  
+  .border{
+    border: 3px solid #191970;
+  }
+  
+  .desc {
+    width: 98%;
+  }
+  
+  #content1 .picc11{
+    width:100%;
+  }
+  #content1 .picc12{
+    width:100%;
+  }
+  #content2 .picc21{
+    width:100%;
+  }
+  #content2 .picc22{
+    width:100%;
+  }
+  
+  #download .download{
+    width: 90%;
+  }
+  
+  #main-footer h1{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  #main-footer p{
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+@media(min-width: 1080px){
+  #menus{
+    margin-left:60px;
+  }
+}
